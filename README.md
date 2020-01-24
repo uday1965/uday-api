@@ -34,14 +34,14 @@ docker login -u udaykanakaboina -p yourpassword
 docker push udaykanakaboina/myapp-api:1
 ```
 
-## Step - 5
+## Step - 6
 
 make suer docker-compose.yml is pointing to above image
 ```
 docker-compose up -d
 ```
 
-## Step - 5
+## Step - 7
  Open the browser
 ```
 http://localhost:8080/instances
